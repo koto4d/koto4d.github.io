@@ -25,3 +25,5 @@ cascade:
   type: "home"
 
 ---
+
+Kotoのドキュメント。
