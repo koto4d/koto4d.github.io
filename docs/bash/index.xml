@@ -6,7 +6,6 @@
     <description>Recent content in Bash on Koto Docs</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 25 Sep 2022 10:17:14 +0900</lastBuildDate>
     <atom:link href="https://koto0822.github.io/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>複数のbashプロセスでhistoryを共有</title>
