@@ -17,7 +17,7 @@ enableMissingTranslationPlaceholders = false
 
 #disableKinds = ["taxonomy", "taxonomyTerm"]
 
-publishDir = "docs"
+publishDir = "public"
 
 timeZone = "Asia/Tokyo"
 

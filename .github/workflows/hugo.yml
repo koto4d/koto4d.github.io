@@ -39,7 +39,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: docs
+          path: public
 
   deploy:
     needs: build
