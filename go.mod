@@ -1,6 +1,6 @@
 module github.com/koto0822/koto0822.github.io
 
-go 1.19
+go 1.23.2
 
 require (
 	github.com/google/docsy v0.11.0 // indirect
