@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Koto Docs</title>
+    <link>https://koto0822.github.io/hugo/</link>
+    <description>Recent content in Hugo on Koto Docs</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 12 Nov 2022 02:02:03 +0900</lastBuildDate>
+    <atom:link href="https://koto0822.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Cheet Sheet</title>
+      <link>https://koto0822.github.io/hugo/hugo-cheet-sheet/</link>
+      <pubDate>Sat, 12 Nov 2022 02:02:03 +0900</pubDate>
+      <guid>https://koto0822.github.io/hugo/hugo-cheet-sheet/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 新しい記事を作成&#xA;hugo new content/docs/hugo/hugo-cheet-sheet/index.md&#xA;&#xA;# サーバーモードで起動 (ドラフトも含める)&#xA;hugo server -D&#xA;&#xA;# ビルド&#xA;hugo&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>HugoとGitHubでサイト運営</title>
+      <link>https://koto0822.github.io/hugo/hugo-with-github/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0900</pubDate>
+      <guid>https://koto0822.github.io/hugo/hugo-with-github/</guid>
+      <description>&lt;h2 id=&#34;利点&#34;&gt;利点&lt;/h2&gt;&#xA;&lt;p&gt;大きな利点は以下のとおりです。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;超高速に閲覧可能なサイトを構築できる&lt;/li&gt;&#xA;&lt;li&gt;編集してGitHubにpushするだけで公開できる&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;細かい利点は以下のとおりです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docsyで最終更新の表示を変更</title>
+      <link>https://koto0822.github.io/hugo/change-docsy-lastmod-format/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0900</pubDate>
+      <guid>https://koto0822.github.io/hugo/change-docsy-lastmod-format/</guid>
+      <description>&lt;h2 id=&#34;configtomlの編集&#34;&gt;config.tomlの編集&lt;/h2&gt;&#xA;&lt;p&gt;まず日付のフォーマットを指定します。&lt;/p&gt;&#xA;&lt;p&gt;日付のフォーマットは &lt;code&gt;config.toml&lt;/code&gt; の &lt;code&gt;params.time_format_default&lt;/code&gt; で指定します。&#xA;指定方法は以下のとおりです。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;年は &lt;code&gt;2006&lt;/code&gt; (4桁で表示) または &lt;code&gt;06&lt;/code&gt; (下2桁で表示)&lt;/li&gt;&#xA;&lt;li&gt;月は &lt;code&gt;01&lt;/code&gt; (2桁になるように0で埋める) または &lt;code&gt;1&lt;/code&gt; (0で埋めない)&lt;/li&gt;&#xA;&lt;li&gt;日は &lt;code&gt;02&lt;/code&gt; (2桁になるように0で埋める) または &lt;code&gt;2&lt;/code&gt; (0で埋めない)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;例えば &lt;code&gt;2020-08-22&lt;/code&gt; という形式で表示したいときは以下のように指定します。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

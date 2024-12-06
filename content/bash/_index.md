@@ -1,0 +1,6 @@
+---
+title: "Bash"
+description: >
+  Bashについて。
+
+---

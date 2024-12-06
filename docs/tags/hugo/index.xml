@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Koto Docs</title>
+    <link>https://koto0822.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Koto Docs</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 12 Nov 2022 02:02:03 +0900</lastBuildDate>
+    <atom:link href="https://koto0822.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Cheet Sheet</title>
+      <link>https://koto0822.github.io/hugo/hugo-cheet-sheet/</link>
+      <pubDate>Sat, 12 Nov 2022 02:02:03 +0900</pubDate>
+      <guid>https://koto0822.github.io/hugo/hugo-cheet-sheet/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 新しい記事を作成&#xA;hugo new content/docs/hugo/hugo-cheet-sheet/index.md&#xA;&#xA;# サーバーモードで起動 (ドラフトも含める)&#xA;hugo server -D&#xA;&#xA;# ビルド&#xA;hugo&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+{
+  "name": "Koto Docs",
+  "version": "1.0.0",
+  "description": "Koto Documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mkm",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss-cli": "^7.1.2"
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Koto Docs</title>
+    <link>https://koto0822.github.io/tags/git/</link>
+    <description>Recent content in Git on Koto Docs</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="https://koto0822.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git commit commentのガイドライン</title>
+      <link>https://koto0822.github.io/git/git-commit-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://koto0822.github.io/git/git-commit-comment/</guid>
+      <description>&lt;h2 id=&#34;書式&#34;&gt;書式&lt;/h2&gt;&#xA;&lt;p&gt;以下の書式でcommit commentを書く。&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;type&amp;gt;[optional scope]: &amp;lt;description&amp;gt;&#xA;&#xA;[optional body]&#xA;&#xA;[optional footer]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;type&#34;&gt;type&lt;/h2&gt;&#xA;&lt;p&gt;typeには以下を指定する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;feat: 新しい機能&lt;/li&gt;&#xA;&lt;li&gt;fix: バグの修正&lt;/li&gt;&#xA;&lt;li&gt;imp: 機能を改善する&lt;/li&gt;&#xA;&lt;li&gt;change: 機能を変更する&lt;/li&gt;&#xA;&lt;li&gt;remove: 機能を削除&lt;/li&gt;&#xA;&lt;li&gt;refactor: バグ修正や新しい機能の追加以外のコードの変更。コードを整理する&lt;/li&gt;&#xA;&lt;li&gt;perf: 性能を改善するコードの変更&lt;/li&gt;&#xA;&lt;li&gt;build: ビルドシステムや外部ライブラリなどの依存に変更&lt;/li&gt;&#xA;&lt;li&gt;ci: CIのための設定やスクリプトの変更&lt;/li&gt;&#xA;&lt;li&gt;docs: ドキュメントだけの変更&lt;/li&gt;&#xA;&lt;li&gt;style: コードの内容に影響のない変更 (フォーマットなどの変更)&lt;/li&gt;&#xA;&lt;li&gt;test: 不足しているテストの追加やテストの修正&lt;/li&gt;&#xA;&lt;li&gt;chore: 雑多な修正&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;例&#34;&gt;例&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.conventionalcommits.org/ja/v1.0.0-beta.4/#%E4%BE%8B&#34;&gt;https://www.conventionalcommits.org/ja/v1.0.0-beta.4/#%E4%BE%8B&lt;/a&gt; から引用。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

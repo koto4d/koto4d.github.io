@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>k8s on Koto Docs</title>
+    <link>https://koto0822.github.io/k8s/</link>
+    <description>Recent content in k8s on Koto Docs</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 12 Nov 2022 01:57:30 +0900</lastBuildDate>
+    <atom:link href="https://koto0822.github.io/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k8s Cheet Sheet</title>
+      <link>https://koto0822.github.io/k8s/k8s-cheet-sheet/</link>
+      <pubDate>Sat, 12 Nov 2022 01:57:30 +0900</pubDate>
+      <guid>https://koto0822.github.io/k8s/k8s-cheet-sheet/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# すべてのPodを停止&#xA;kubectl scale --replicas=0 deployment/&amp;lt;your-deployment&amp;gt;&#xA;&#xA;# Podを一つだけにする&#xA;kubectl scale --replicas=1 deployment/&amp;lt;your-deployment&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

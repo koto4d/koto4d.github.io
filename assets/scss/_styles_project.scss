@@ -1,0 +1,20 @@
+.td-page-meta--view
+,.td-page-meta--edit
+,.td-page-meta--child
+,.td-page-meta--issue
+,.td-page-meta--project-issue
+ { display: none !important; }
+
+.td-content {
+  > table {
+    th { background-color: rgb(240, 240, 240);}
+
+    &.table-striped > tbody > tr:nth-child(odd) > td, 
+    &.table-striped > tbody > tr:nth-child(odd) > th {
+     background-color: rgb(248, 248, 248);;
+    }
+  }
+
+}
+
+
