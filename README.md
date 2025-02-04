@@ -1,4 +1,4 @@
-# koto0x4d.github.io
+# koto4d.github.io
 
 ```
 npm ci

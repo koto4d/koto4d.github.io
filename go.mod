@@ -1,4 +1,4 @@
-module github.com/koto0x4d/koto0x4d.github.io
+module github.com/koto4d/koto4d.github.io
 
 go 1.23.2
 

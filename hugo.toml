@@ -1,4 +1,4 @@
-baseURL = "https://koto0x4d.github.io/"
+baseURL = "https://koto4d.github.io/"
 title = "Koto Docs"
 description = "Koto note"
 
@@ -49,7 +49,7 @@ anchor = "smart"
 #[[menu.main]]
 #    name = "Home"
 #    weight = 100
-#    url = "https://koto0x4d.github.io/"
+#    url = "https://koto4d.github.io/"
 
 [services]
 [services.googleAnalytics]
@@ -102,10 +102,10 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://koto0x4d.github.io/"
+url_latest_version = "https://koto4d.github.io/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/koto0x4d/koto0x4d.github.io"
+github_repo = "https://github.com/koto4d/koto4d.github.io"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
