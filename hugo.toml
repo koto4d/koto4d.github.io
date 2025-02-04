@@ -53,7 +53,7 @@ anchor = "smart"
 
 [services]
 [services.googleAnalytics]
-id = "UA-175889575-3"
+id = "G-EPEVWL45R0"
 
 # Language configuration
 [languages]
