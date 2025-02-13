@@ -13,11 +13,11 @@ EmacsからVSCodeへの移行したときのメモです。
 
 [Awsome Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=tuttieee.emacs-mcx)をインストールしました。
 
-## Find-Fileっぽいもの
+## find-fileっぽいもの
 
 [File Browser](https://marketplace.visualstudio.com/items?itemName=bodil.file-browser)をインストールしました。
 
-## Diredっぽいもの
+## diredっぽいもの
 
 [vscode-dired](https://marketplace.visualstudio.com/items?itemName=rrudi.vscode-dired)をインストールしました。
 
