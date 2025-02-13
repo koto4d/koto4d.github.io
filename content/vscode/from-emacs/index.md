@@ -18,7 +18,7 @@ EmacsからVSCodeへの移行したときのメモです。
 [File Browser](https://marketplace.visualstudio.com/items?itemName=bodil.file-browser)をインストールしました。
 
 `~`入力時に開くフォルダを変更したいので以下のページのように修正しています。
-  - [File Browser拡張](/vscode/file-browser)
+  - [File Browser拡張](/vscode/change-file-browser)
 
 ## diredっぽいもの
 

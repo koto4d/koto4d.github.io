@@ -1,5 +1,5 @@
 ---
-title: "File Browser拡張"
+title: "File Browser拡張の変更"
 date: 2025-02-12 14:53:51
 tags: [ vscode ]
 weight: 1
