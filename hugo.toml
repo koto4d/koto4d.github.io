@@ -119,8 +119,10 @@ offlineSearch = true
 # User interface configuration
 [params.ui]
 sidebar_menu_compact = true
-breadcrumb_disable = false
+ul_show = 2
+sidebar_menu_foldable = false
 sidebar_search_disable = false
+breadcrumb_disable = false
 navbar_logo = true
 footer_about_enabled = true
 
