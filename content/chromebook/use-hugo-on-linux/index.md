@@ -6,11 +6,6 @@ description: >
 
 ---
 
-## 前提
-
-Hugoの一般的な設定方法や使い方については [Hugo]({{< ref "/hugo" >}}) を参照してください。
-
-
 ## ローカル起動とChromeでの表示
 
 ChromebookのLinuxの仕組みのため，`hugo server`で起動しても，
