@@ -1,7 +1,7 @@
 ---
 title: "Webアプリケーションプロジェクトの作成手順"
 date: 2025-02-13 17:30:00
-tags: [ pnpm, workspace, react-router, prisma ]
+tags: [ PNPM, workspace, React Router, Prisma ]
 weight: 1
 description:
   
