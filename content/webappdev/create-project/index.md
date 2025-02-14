@@ -62,16 +62,70 @@ pnpm i
 pnpm approve-builds
 ```
 
-## example-coreにTypeScript，Prismaをインストール
+## example-coreにTypeScript，TSUP，Prismaをインストール
 
 以下のコマンドを実行します。
 
 ``` bash
-pnpm --filter example-core i prisma typescript tsx @types/node --save-dev
+pnpm --filter example-core i prisma typescript tsx @types/node tsup --save-dev
 pnpm --filter example-core exec tsc --init
 pnpm --filter example-core exec prisma
 pnpm --filter example-core exec prisma init
 pnpm approve-builds
+```
+
+`example-core/package.json`に以下を追記します。
+
+``` json
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:migrate:reset": "prisma migrate reset --force",
+    "db:seed": "prisma db seed"
+  },
+  "tsup": {
+    "target": "es2022",
+    "dts": true,
+    "clean": true,
+    "format": ["cjs", "esm"],
+    "entryPoints": [
+      "./src/index.ts"
+    ]
+  },
+  "prisma": {
+    "seed": "tsx prisma/seeds.ts"
+  },
+```
+
+`example-core/tsconfig.json`を以下のように編集します。
+
+``` json
+{
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts"]
+}
 ```
 
 ## example-webパッケージからexample-coreパッケージへのdependencyを追加
