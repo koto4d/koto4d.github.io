@@ -143,7 +143,7 @@ cd /path/to/example
 pnpm i
 ```
 
-# サブプロジェクトのscriptを実行しやすくするために`package.json`を編集
+## サブプロジェクトのscriptを実行しやすくするために`package.json`を編集
 
 `example/package.json`に以下を追記します。
 
