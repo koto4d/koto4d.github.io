@@ -142,3 +142,14 @@ pnpm approve-builds
 cd /path/to/example
 pnpm i
 ```
+
+# サブプロジェクトのscriptを実行しやすくするために`package.json`を編集
+
+`example/package.json`に以下を追記します。
+
+``` json
+  "scripts": {
+    "core": "pnpm -F \"example-core\"",
+    "web": "pnpm -F \"example-web\""
+  },
+```
