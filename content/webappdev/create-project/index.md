@@ -101,6 +101,7 @@ pnpm approve-builds
     "dts": true,
     "clean": true,
     "format": ["cjs", "esm"],
+    "sourcemap": true,
     "entryPoints": [
       "./src/index.ts"
     ]
