@@ -1,9 +1,9 @@
 ---
-title: "HugoとGitHubでサイト運営"
+title: "HugoとGitHubとXSERVERでサイト運営"
 date: 2020-08-22
 weight: 1
 description: >
-  HugoとGitHubで高速なサイトを構築，快適に運営する環境を作ります。
+  HugoとGitHubとXSERVERでサイトを構築，快適に運営する環境を作ります。
 
 ---
 
